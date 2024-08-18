@@ -9,10 +9,10 @@ Submitting a text entry box or a website url
 You’re a growth analyst at Mercado LibreLinks to an external site.. With over 200 million users, Mercado Libre is the most popular e-commerce site in Latin America. You've been tasked with analyzing the company's financial and user data in clever ways to make the company grow. So, you want to find out if the ability to predict search traffic can translate into the ability to successfully trade the stock.
 
 The instructions for this Challenge are divided into four steps, as follows:
-Step 1: Find unusual patterns in hourly Google search traffic.
-Step 2: Mine the search traffic data for seasonality.
-Step 3: Relate the search traffic to stock price patterns.
-Step 4: Create a time series model with Prophet.
+#### Step 1: Find unusual patterns in hourly Google search traffic.
+#### Step 2: Mine the search traffic data for seasonality.
+#### Step 3: Relate the search traffic to stock price patterns.
+#### Step 4: Create a time series model with Prophet.
 
 ### Files
 Download the following files to help you get started:
@@ -41,7 +41,7 @@ Calculate the total search traffic for the month, and then compare the value to 
 
 Did the Google search traffic increase during the month that MercadoLibre released its financial results? Write your answer in the space provided in the starter file.
 
-Step 2: Mine the Search Traffic Data for Seasonality
+#### Step 2: Mine the Search Traffic Data for Seasonality
 Marketing realizes that they can use the hourly search data, too. If they can track and predict interest in the company and its platform for any time of day, they can focus their marketing efforts around the times that have the most traffic. This will get a greater return on investment (ROI) from their marketing budget.
 
 To that end, you want to mine the search traffic data for predictable seasonal patterns of interest in the company. To do so, complete the following steps:
@@ -54,7 +54,7 @@ Group the hourly search data to plot the average traffic by the week of the year
 
 Are there any time based trends that you can see in the data? Write your answer in the space provided in the starter file.
 
-Step 3: Relate the Search Traffic to Stock Price Patterns
+#### Step 3: Relate the Search Traffic to Stock Price Patterns
 You mention your work on the search traffic data during a meeting with people in the finance group at the company. They want to know if any relationship between the search data and the company stock price exists, and they ask if you can investigate.
 
 To do so, complete the following steps:
@@ -71,7 +71,7 @@ Create a new column in the DataFrame named “Lagged Search Trends” that offse
 
 Does a predictable relationship exist between the lagged search traffic and the stock volatility or between the lagged search traffic and the stock price returns? Write your answer in the space provided in the starter file.
 
-Step 4: Create a Time Series Model with Prophet
+#### Step 4: Create a Time Series Model with Prophet
 Now, you need to produce a time series model that analyzes and forecasts patterns in the hourly search data. To do so, complete the following steps:
 
 Set up the Google search data for a Prophet forecasting model.
@@ -86,9 +86,10 @@ Which day of the week gets the most search traffic?
 
 What's the lowest point for search traffic in the calendar year?
 
-Hints and Considerations
+### Hints and Considerations
 Review activities from each lesson for help with Prophet syntax and using Google Colab.
-Requirements
+
+### Requirements
 Find unusual patterns in hourly Google search traffic (25 points)
 Read the search data into a DataFrame. (5 points)
 
@@ -141,34 +142,23 @@ Which day of the week gets the most search traffic? (2 points)
 
 What's the lowest point for search traffic in the calendar year? (1 point)
 
-Grading
+## Grading
 This challenge will be evaluated against the requirements and assigned a grade according to the following table:
 
-Grade	Points
+#### Grade	Points
 A (+/-)	90+
 B (+/-)	80–89
 C (+/-)	70–79
 D (+/-)	60–69
 F (+/-)	< 60
-Submission
+
+## Submission
 To submit your Challenge assignment, click Submit, and then provide the URL of your GitHub repository for grading. Make sure to download your challenge file from Google Colab, add it to your repository, and commit your changes before submitting.
 
-note
+#### note
 You are allowed to miss up to two Challenge assignments and still earn your certificate. If you complete all Challenge assignments, your lowest two grades will be dropped. If you wish to skip this assignment, click Next, and move on to the next module.
 
 Comments are disabled for graded submissions in Bootcamp Spot. If you have questions about your feedback, please notify your instructional staff or your Student Success Manager. If you would like to resubmit your work for an additional review, you can use the Resubmit Assignment button to upload new links. You may resubmit up to three times for a total of four submissions.
 
-important
+#### important
 It is your responsibility to include a note in the README section of your repo specifying code source and its location within your repo. This applies if you have worked with a peer on an assignment, used code in which you did not author or create sourced from a forum such as Stack Overflow, or you received code outside curriculum content from support staff such as an Instructor, TA, Tutor, or Learning Assistant. This will provide visibility to grading staff of your circumstance in order to avoid flagging your work as plagiarized.
-
-If you are struggling with a challenge assignment or any aspect of the academic curriculum, please remember that there are student support services available for you:
-
-Ask the class Slack channel/peer support.
-
-AskBCS Learning Assistants exists in your class Slack application.
-
-Office hours facilitated by your instructional staff before and after each class session.
-
-Tutoring GuidelinesLinks to an external site. - schedule a tutor session in the Tutor Sessions section of Bootcampspot - Canvas
-
-If the above resources are not applicable and you have a need, please reach out to a member of your instructional team, your Student Success Advisor, or submit a support ticket in the Student Support section of your BCS application.
