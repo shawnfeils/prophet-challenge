@@ -1,40 +1,36 @@
 # prophet-challenge
 
-### Module 8 Challenge
-Due Jul 15 by 11:59pm Points 100 Submitting a text entry box or a website url
-Background
+## Module 8 Challenge
+Due Jul 15 by 11:59pm 
+Points 100 
+Submitting a text entry box or a website url
+
+### Background
 You’re a growth analyst at Mercado LibreLinks to an external site.. With over 200 million users, Mercado Libre is the most popular e-commerce site in Latin America. You've been tasked with analyzing the company's financial and user data in clever ways to make the company grow. So, you want to find out if the ability to predict search traffic can translate into the ability to successfully trade the stock.
 
 The instructions for this Challenge are divided into four steps, as follows:
-
 Step 1: Find unusual patterns in hourly Google search traffic.
-
 Step 2: Mine the search traffic data for seasonality.
-
 Step 3: Relate the search traffic to stock price patterns.
-
 Step 4: Create a time series model with Prophet.
 
-Files
+### Files
 Download the following files to help you get started:
 
-Module 8 Challenge filesLinks to an external site.
+Module 8 Challenge files: https://static.bc-edx.com/ai/ail-v-1-0/m8/lms/starter/M8_Starter_Code.zip
 
-Before You Begin
+### Before You Begin
 Before starting the challenge, be sure to complete the following steps:
 
-Create a new repository for this project called prophet-challenge. Do not add this homework assignment to an existing repository.
-
-Clone the new repository to your computer.
-
-Inside your local Git repository, add the starter files from your file downloads.
-
-Push these changes to GitHub or GitLab.
+1. Create a new repository for this project called prophet-challenge. Do not add this homework assignment to an existing repository.
+2. Clone the new repository to your computer.
+3. Inside your local Git repository, add the starter files from your file downloads.
+4. Push these changes to GitHub or GitLab.
 
 You will use Google Colab to complete this challenge; make sure to download your notebook file and place it in your repository again after completing the challenge.
 
-Instructions
-Step 1: Find Unusual Patterns in Hourly Google Search Traffic
+### Instructions
+#### Step 1: Find Unusual Patterns in Hourly Google Search Traffic
 The data science manager asks if the Google search traffic for the company links to any financial events at the company. Or, does the search traffic data just present random noise? To answer this question, pick out any unusual patterns in the Google search data for the company, and connect them to the corporate financial events.
 
 To do so, complete the following steps:
