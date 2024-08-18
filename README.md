@@ -111,7 +111,7 @@ Review activities from each lesson for help with Prophet syntax and using Google
 This challenge will be evaluated against the requirements and assigned a grade according to the following table:
 
 #### Grade	Points
-A (+/-)	90+
+##### A (+/-)	90+
 B (+/-)	80–89
 C (+/-)	70–79
 D (+/-)	60–69
